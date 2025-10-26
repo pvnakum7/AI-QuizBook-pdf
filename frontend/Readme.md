@@ -1,3 +1,5 @@
+# Frontend ai-pdf-citation-system
+
 frontend/
  ├── package.json
  ├── vite.config.js
