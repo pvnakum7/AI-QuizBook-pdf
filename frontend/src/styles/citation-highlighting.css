@@ -1,0 +1,36 @@
+.citation {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.citation:hover {
+  text-decoration: underline;
+}
+
+.pdf-highlight {
+  position: absolute;
+  background: rgba(255, 230, 0, 0.4);
+  border-radius: 4px;
+}
+.citations {
+  margin-top: 10px;
+}
+
+.citation {
+  color: #007bff;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.citation:hover {
+  text-decoration: underline;
+}
+
+.pdf-highlight {
+  pointer-events: none;
+  position: absolute;
+  background: rgba(255, 255, 0, 0.4);
+  border-radius: 4px;
+}

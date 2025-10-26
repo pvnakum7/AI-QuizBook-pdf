@@ -1,0 +1,29 @@
+{
+  "name": "ai-pdf-citation-backend",
+  "version": "1.0.0",
+  "description": "AI PDF Q&A backend with clickable citations (Node 22)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.0.1",
+    "@langchain/textsplitters": "^1.0.0",
+    "axios": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "formidable": "^3.5.0",
+    "multer": "^1.4.5-lts.1",
+    "pdfjs-dist": "^4.10.38",
+    "react-pdf": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

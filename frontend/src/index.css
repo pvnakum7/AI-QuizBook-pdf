@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: #f7f9fb;
+  color: #222;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="file"],
+input[type="text"] {
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 6px;
+  width: 300px;
+}
